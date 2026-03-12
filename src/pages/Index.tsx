@@ -266,13 +266,19 @@ export default function Index() {
           </div>
 
           <h1
-            className="font-cormorant font-light leading-none mb-6"
+            className="font-cormorant leading-none mb-6 tracking-wide"
             style={{
-              fontSize: "clamp(3rem, 10vw, 8rem)",
-              color: "#fff",
-              textShadow: `0 0 40px rgba(255,215,0,${sunProgress * 0.5}), 0 2px 20px rgba(0,0,0,0.5)`,
+              fontSize: "clamp(4rem, 13vw, 11rem)",
+              fontWeight: 800,
+              background: `linear-gradient(135deg, #fff5e0 0%, #f5c842 40%, #f4a04a 70%, #e8845c 100%)`,
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+              textShadow: "none",
+              filter: `drop-shadow(0 0 30px rgba(255,215,0,${sunProgress * 0.6}))`,
               opacity: Math.max(0, sunProgress * 2 - 0.4),
               transform: `translateY(${Math.max(0, (1 - sunProgress) * 40)}px)`,
+              letterSpacing: "0.05em",
             }}
           >
             Рассвет
