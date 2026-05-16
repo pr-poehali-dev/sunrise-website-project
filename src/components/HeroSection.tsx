@@ -199,9 +199,7 @@ export default function HeroSection() {
             transform: `translateY(${Math.max(0, (1 - sunProgress) * 40)}px)`,
             letterSpacing: "0.05em",
           }}
-        >
-          Морнинг
-        </h1>
+        >Морнин</h1>
 
         <p
           className="font-golos text-lg md:text-xl mb-10 max-w-2xl mx-auto"
