@@ -200,7 +200,7 @@ export default function HeroSection() {
             letterSpacing: "0.05em",
           }}
         >
-          Рассвет
+          Закат
         </h1>
 
         <p
