@@ -200,7 +200,7 @@ export default function HeroSection() {
             letterSpacing: "0.05em",
           }}
         >
-          Закат
+          Морнинг
         </h1>
 
         <p
